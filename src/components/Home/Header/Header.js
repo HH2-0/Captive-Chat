@@ -1,5 +1,5 @@
 import React from 'react';
-import { signInWithGoogle } from '../../../Firebase';
+import { signInWithGoogle ,logout } from '../../../Firebase';
 import { auth } from '../../../Firebase';
 import './Header.css'
 
@@ -36,7 +36,7 @@ function Register(){
 
 function LoggenIn(){
   return(
-    <p>Enjoy your stay with us</p>
+    <button className='btn' onClick={logout}> Sign Out </button>
   )
 }
 
