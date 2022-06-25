@@ -23,8 +23,9 @@ nav a.Nav-Link{
     letter-spacing: 1px;
     margin: 0px 10px;
 }
-nav a{
-    text-transform: uppercase;
+.btn{
+    display: flex;
+    align-items: center;
 }
 nav a:hover{
     color: orangered;
@@ -34,4 +35,14 @@ nav a:hover{
 nav .navbar-nav{
     justify-content: right;
     width: 100%;
+}
+.lin{
+    text-decoration: none;
+    color: black;
+}
+.first{
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
 }

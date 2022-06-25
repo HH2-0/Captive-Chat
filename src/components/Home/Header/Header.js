@@ -1,10 +1,11 @@
 import React from 'react';
-import { signInWithGoogle ,logout } from '../../../Firebase';
+import { signInWithGoogle } from '../../../Firebase';
 import { auth } from '../../../Firebase';
 import './Header.css'
 
 
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
   const [user] = useAuthState(auth);
@@ -35,8 +36,12 @@ function Register(){
 }
 
 function LoggenIn(){
+  const navigate=  useNavigate()
+  function Search(){
+    navigate('/HomePage2')
+  }
   return(
-    <button className='btn' onClick={logout}> Sign Out </button>
+    <button className='btn' onClick={Search}> Visit Chats </button>
   )
 }
 
