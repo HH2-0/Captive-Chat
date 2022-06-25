@@ -1,0 +1,17 @@
+.Chat{
+    background: rgba(0, 0, 0, 0.489);
+    width: 100%;
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+    overflow: hidden;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.ChatBox{
+    width: 90%;
+    margin-top: 10rem;
+}
