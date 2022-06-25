@@ -1,5 +1,4 @@
 import React from 'react';
-// import Contacts from '../Contact-Us/Contact';
 import { signInWithGoogle } from '../../../Firebase';
 import { auth } from '../../../Firebase';
 import './Header.css'
