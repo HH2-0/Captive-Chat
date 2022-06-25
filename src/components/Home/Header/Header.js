@@ -29,7 +29,7 @@ function Header() {
 
 function Register(){
   return(
-    <button className='btn' onClick={ signInWithGoogle }>
+    <button className= 'btn' onClick={ signInWithGoogle }>
        SignUp with Google
     </button>
   )
