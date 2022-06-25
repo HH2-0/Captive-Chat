@@ -1,0 +1,52 @@
+header{
+    background: url('../../../assets/landing-page-bg.png') center no-repeat;
+    width: 100%;
+    background-size: cover;
+    max-width: 100%;
+    height: 700px;
+    overflow: hidden;
+    text-align: center;
+}
+header h2{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 25px 0;
+    letter-spacing: 1.2px;
+    line-height: 75px;
+}
+header p{
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 25px 0px;
+}
+header .header-overlay{
+    background-color: rgba(0, 0, 0, 0.51);
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    text-align: center;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .iconContent{
+    padding: 10px;
+    height: 6rem;
+}
+header .iconContent .btn{
+    background-color: white;
+    margin: 10px;
+    font-size: 30px;
+    transition: 0.6s ease-in-out;
+}
+header .iconContent .btn:hover{
+    background-color: rgba(255, 68, 0, 0.74);
+    color: white;
+}
+header .header-overlay .row{
+    margin: 60px 0;
+}
