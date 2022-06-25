@@ -1,15 +1,22 @@
 import { Fragment } from 'react';
 import './App.css';
 import Home from './components/Home/Home';
-import Navs from './components/Nav/Nav'
 
 //App
+import HomePage2 from './components/stuff/stuff'
+import Navbar from './common/Nav/Nav'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 function App() {
   return (
-    <Fragment>
-      <Navs></Navs>
-      <Home></Home>
-    </Fragment>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home></Home>} />
+          <Route path='/homePage2' exact element={<HomePage2></HomePage2>} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
