@@ -1,10 +1,9 @@
 # Captive - Chat
 
-## Authors: 
+## Authors: Nirmith D'Almeida, Tanmay Mahato
 
 ## Purpose:
+- It is for hackathon
 
-## 
-## Mentions of Nav-bar
-- Folder Nav
-- App.js
+## How to run and install
+- npm i and npm start
