@@ -18,11 +18,7 @@ function Header() {
                     <h2>Welcome to Captive-Chat</h2>
                 </div>
                 <div className='iconContent'>
-                {/* <a href="" className="btn" >
-                     Sign Up
-                  </a> */}
-                  {/* <button className='btn' onClick={ signInWithGoogle }>Register</button> */}
-                  {user ? <Register/> : <LoggenIn />}
+                  {user ? <LoggenIn /> : <Register/>}
                 </div>
             </div>
           </div>
