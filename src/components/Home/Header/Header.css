@@ -44,7 +44,7 @@ header .iconContent .btn{
     transition: 0.6s ease-in-out;
 }
 header .iconContent .btn:hover{
-    background-color: rgba(255, 68, 0, 0.74);
+    background-color: rgb(105, 0, 0, 0.80);
     color: white;
 }
 header .header-overlay .row{
