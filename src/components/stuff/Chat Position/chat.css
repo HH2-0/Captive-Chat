@@ -1,5 +1,5 @@
 .Chat{
-    background: rgba(0, 0, 0, 0.489);
+    background: rgba(255, 255, 255, 0.489);
     width: 100%;
     background-size: cover;
     max-width: 100%;
@@ -15,3 +15,162 @@
     width: 90%;
     margin-top: 10rem;
 }
+
+
+
+body {
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+  }
+  
+  .App {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .App header {
+    background-color: #fff;
+    height: 10vh;
+    min-height: 50px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .App section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff;
+  }
+  
+  main {
+    padding: 10px;
+    height: 70vh;
+    margin: 10vh 0 10vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  main::-webkit-scrollbar-track {
+    background: #e6e6ff;
+  }
+  
+  main::-webkit-scrollbar-thumb {
+    background: #3816e1;
+  }
+  
+  .App form {
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+  
+  .App form button {
+    width: 20%;
+    background-color: rgb(89, 179, 58);
+    border-radius: 5px;
+  }
+  
+  .App input {
+    line-height: 1.5;
+    height: 7vh;
+    width: 100%;
+    font-size: 1.5rem;
+    background: rgb(212, 204, 185);
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    padding: 0 10px;
+  }
+  
+  .App button {
+    background-color: #004fec; /* Green */
+    border: none;
+    height: 7vh;
+    color: white;
+    padding: 0 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.25rem;
+  }
+  
+  .App button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  
+  
+  .App ul, li {
+    text-align: left;
+    list-style: none;
+  }
+  
+  p {
+    max-width: 500px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .sent {
+    flex-direction: row-reverse;
+  }
+  
+  .sent p {
+    color: white;
+    background: #00108a;
+    align-self: flex-end;
+  }
+  .received p {
+    background: #e5e5ea;
+    color: black;
+  }
+  
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px;
+  }
+  
+  
