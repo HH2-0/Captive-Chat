@@ -8,20 +8,6 @@
 npm install and npm start
 
 
-## Inspiration
-When the World Bank of Projects staff was taken captive by the Heist Team, all their communication with the outside world was cut off!! With no way to connect social media, how were they supposed to mindlessly scroll through fail videos on TikTok, or compare themselves to edited, unrealistic beauty standards on Instagram, or text people they barely talk to in real life on SnapChat?!!
-
-Something had to be done about this, so we at DreamTeam decided to make Captive-Chat!!
-
-Now for a small fee, all captives in the bank can connect with one another on the world's first in-house (or should we say in-bank) social media platform. While you might not be able to check-up on your friends outside the bank, you can use what could possibly be your last hour on earth making new friends INSIDE the bank!! Check out what Anna from accounting plans to do for the summer (if she survives the heist), or slide into Jake from Marketing's DMs (you know you've been wanting to!!)
-
-Captive-Chat: connecting the World Bank of Projects employees since 2022!!
-
-
-## What it does
-Captive-Chat provides a safe space for every hostage to connect with each other in the wake of their inability to communicate with the outside world.
-
-
 ## How we built it
 Tools used: ReactJS, Firebase, BootStrap, HTML, CSS, and EmailJS
 
@@ -36,6 +22,20 @@ Tools used: ReactJS, Firebase, BootStrap, HTML, CSS, and EmailJS
 We used ReactJS and Bootstrap to make our landing, sign-up, contact, and home pages. We then utilized EmailJS and Firebase to set up a backend and routing that allows users to make accounts as well as contact us (the developers)
 
 We also used Firebase to set up our chat system that allows our users to communicate with each other
+
+
+## Inspiration
+When the World Bank of Projects staff was taken captive by the Heist Team, all their communication with the outside world was cut off!! With no way to connect social media, how were they supposed to mindlessly scroll through fail videos on TikTok, or compare themselves to edited, unrealistic beauty standards on Instagram, or text people they barely talk to in real life on SnapChat?!!
+
+Something had to be done about this, so we at DreamTeam decided to make Captive-Chat!!
+
+Now for a small fee, all captives in the bank can connect with one another on the world's first in-house (or should we say in-bank) social media platform. While you might not be able to check-up on your friends outside the bank, you can use what could possibly be your last hour on earth making new friends INSIDE the bank!! Check out what Anna from accounting plans to do for the summer (if she survives the heist), or slide into Jake from Marketing's DMs (you know you've been wanting to!!)
+
+Captive-Chat: connecting the World Bank of Projects employees since 2022!!
+
+
+## What it does
+Captive-Chat provides a safe space for every hostage to connect with each other in the wake of their inability to communicate with the outside world.
 
 
 ## Challenges we ran into
