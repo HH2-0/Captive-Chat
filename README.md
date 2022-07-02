@@ -43,7 +43,7 @@ Captive-Chat provides a safe space for every hostage to connect with each other 
 
 2) Learning BootStrap was quite a challenge, specifically learning how to use it for routing purposes
 
-3) Using Firebase for authentication and making the chat-app was quite a challenge, but luckily YouTube and mentors were there to help!!
+3) Using Firebase for authentication and making the chat-app was quite a challenge, but luckily mentors were there to help!!
 
 
 ## Accomplishments that we're proud of
