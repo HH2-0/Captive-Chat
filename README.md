@@ -2,7 +2,7 @@
 
 
 ## Authors: Nirmith D'Almeida, Tanmay Mahato
-[Deployed Url](https://merry-beignet-17ea28.netlify.app/)
+[Deployed Url](https://captive-chat.vercel.app)
 
 Demo Video : https://www.youtube.com/watch?v=nJxtvuS-OEA
 
