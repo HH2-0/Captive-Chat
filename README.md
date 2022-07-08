@@ -2,6 +2,7 @@
 
 
 ## Authors: Nirmith D'Almeida, Tanmay Mahato
+[Deployed Url](https://merry-beignet-17ea28.netlify.app/)
 Demo Video : https://www.youtube.com/watch?v=nJxtvuS-OEA
 
 ## How to run and install
